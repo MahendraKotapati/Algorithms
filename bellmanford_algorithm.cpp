@@ -1,3 +1,8 @@
+/* A very important application of Bellman Ford is to check if there is a negative cycle in the graph, 
+    Time complexity : O(V*E)  
+    if E=V^2 then O(V^3) which is very high.
+
+ */
 #include<bits/stdc++.h>
 #define F first
 #define S second
@@ -7,7 +12,7 @@
 typedef long long ll;
 using namespace std;
 
-vector <pll>g[102];   // g({node,dis})
+vector <pll>g[102];   // g[u].[{v,dis},{v,dis}]
 ll n,m;
 
 bool has_negative_cycle()

@@ -44,7 +44,7 @@ int main()
     }
 
     for(i=1;i<=n;i++)
-        cout<<d[i]<<" ";
+        cout<<d[i]<<" "; 
     
     return 0;
 }

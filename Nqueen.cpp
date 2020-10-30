@@ -1,6 +1,6 @@
 /* 
     Nqueen refer sahani algorithms textbook  
-    TimeComplexity : O(n*n!)   
+    TimeComplexity : O( (n^n)* n)   
 */
 
 #include<bits/stdc++.h>

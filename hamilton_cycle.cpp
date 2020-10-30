@@ -24,7 +24,7 @@ void next_node(ll k)
         if(col[k]==0)  // if all nodes are tried and unable to assign node
             return ;
 
-        if(g[col[k-1]][col[k]]==1) // last node in cycle and current node should have link 
+        if(g[col[k-1]][col[k]]==1) // last node in cycle and current node should have link ,because it is a path 
         {
             for(i=1;i<k;i++)
                 if(col[k]==col[i])  // if kth node is already visited  
