@@ -1,3 +1,8 @@
+/*  
+    for array representation complexity O(V^2)
+    for Adjacent list and priority queue O(Elog(V)) not sure have to verity
+*/
+
 #include<bits/stdc++.h>
 #define F first
 #define S second

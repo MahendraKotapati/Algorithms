@@ -19,7 +19,7 @@ bool has_negative_cycle()
 {   
     int i,u,v,edge_cost;
     vector <ll>dis(n+1,inf);
-    dis[0]=0;  // source is o
+    dis[0]=0;  // source is 0
 
     for(i=1;i<=n-1;i++)  // relaxing each node, node-1 times
     {   

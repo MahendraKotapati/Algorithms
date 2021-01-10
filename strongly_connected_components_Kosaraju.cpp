@@ -1,10 +1,5 @@
-// { Driver Code Starts
 #include<bits/stdc++.h>
-
 using namespace std;
-
- // } Driver Code Ends
-
 
 /*  Function to find the number of strongly connected components
 *   using Kosaraju's algorithm
@@ -61,7 +56,7 @@ int kosaraju(int V, vector<int> adj[])
 
     memset(vis,0,sizeof(vis));
 
-    for(i=V-1;i>=0;i--)   // traversing graph from nodes having highest out time , becaouse it has out degree zero
+    for(i=V-1;i>=0;i--)   // traversing graph from nodes having highest out time , because it has out degree zero
     {
         if(vis[order[i]]==0)
         {   
